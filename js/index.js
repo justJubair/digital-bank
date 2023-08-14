@@ -15,3 +15,5 @@ document.getElementById('login-btn').addEventListener('click', () => {
     }
 })
 
+console.log('joeyloves@food.com');
+console.log('iloverachel');
