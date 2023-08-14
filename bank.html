@@ -14,7 +14,7 @@
             </header>
             <!-- account details, deposit, withdraw, balance -->
             <div class="flex justify-evenly">
-                
+
                 <!-- deposit -->
                 <div class="w-[13rem] bg-purple-600 p-4 rounded-lg text-white">
                     <h3 class="text-xl mb-2">Deposit</h3>
@@ -29,6 +29,22 @@
                 <div class="w-[13rem] bg-orange-600 p-4 rounded-lg text-white">
                     <h3 class="text-xl mb-2">Balance</h3>
                     <p class="text-3xl font-semibold">$ <span id="deposit" class="text-3xl font-semibold">0</span></p>
+                </div>
+            </div>
+
+            <!-- deposit and withdraw input field -->
+            <div class="flex justify-around my-8">
+                <!-- deposit input field -->
+                <div class="bg-violet-500 w-1/3 p-6">
+                    <h2 class="text-3xl font-semibold text-white mb-3">Deposit</h2>
+                    <input class="w-full p-2 rounded" type="text" name="" id="new-deposit" placeholder="$ Enter the amount of deposit">
+                    <button id="deposit-btn" class="uppercase bg-blue-950 text-white px-6 py-1.5 rounded font-semibold block mt-4">deposit</button>
+                </div>
+                <!-- withdraw input field -->
+                <div class="bg-blue-800 w-1/3 p-6">
+                    <h2 class="text-3xl font-semibold text-white mb-3">Withdraw</h2>
+                    <input class="w-full p-2 rounded" type="text" name="" id="new-withdraw" placeholder="$ Enter the amount of deposit">
+                    <button id="deposit-btn" class="uppercase bg-blue-950 text-white px-6 py-1.5 rounded font-semibold block mt-4">withdraw</button>
                 </div>
             </div>
         </div>
