@@ -1,3 +1,4 @@
+// Login page
 document.getElementById('login-btn').addEventListener('click', () => {
     // Define UI variables
     const email = document.getElementById('input-email').value;
@@ -13,3 +14,4 @@ document.getElementById('login-btn').addEventListener('click', () => {
        alert('Chandler, stop trying to login');
     }
 })
+
